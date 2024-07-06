@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Acme";
+    src: url(fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Belanosima";
+    src: url(fonts/Belanosima-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cro";
+    src: url(fonts/CroissantOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Belanosima1";
+    src: url(fonts/Belanosima-SemiBold.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    background-color: #f8f8f8;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    animation: pulse 2s infinite alternate; 
+    display: none;
+    
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 40px rgba(255, 0, 0, 0.534); 
+    }
+}
+
+.alert-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#paragraph, #website-list, #fetched-data {
+    color: #333;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: auto;
+    text-align: justify
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li::before {
+    content: "•";
+    color: blue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#know-more {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-family: 'Belanosima',sans-serif;
+    font-size: 20px;
+}
+
+#know-more:hover {
+    background-color: rgba(255,149,4,255);
+}
+
+.container2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    animation: pulse1 2s infinite alternate;
+    display: none;
+}
+
+@keyframes pulse1 {
+    0% {
+        box-shadow: 0 0 10px rgba(9, 255, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 40px rgba(9, 255, 0, 0.703); 
+    }
+}
+
+#Learn-more {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-family: 'Belanosima',sans-serif;
+    font-size: 20px;
+}
+
+#Learn-more:hover {
+    background-color: #45a049;
+}
+
+#paragraph,
+#paragraph2,
+#paragraph4,
+#paragraph5{
+    font-family: 'Belanosima1',sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#paragraph1,
+#paragraph3,
+#website-list,
+#website-list2,
+#fetched-data,
+#fetched-data2{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}

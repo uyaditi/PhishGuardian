@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pishing Warning!</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="popup">
+        <img src="assets/warning.png" alt="Alert Image" class="alert-image">
+        <p id="title">"Phishing Warning!"</p>
+        <p id="message">This website is attempting to steal your personal information or conduct fraudulent activities. Do not proceed and close this tab immediately. If you believe this is a mistake, please contact support.</p>
+        <button id="confirm" onclick="leave()">Leave</button>
+        <button id="cancel" onclick="stay()">Stay</button>
+    </div>
+
+    <script src="custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Acme";
+    src: url(fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Belanosima";
+    src: url(fonts/Belanosima-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cro";
+    src: url(fonts/CroissantOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Belanosima1";
+    src: url(fonts/Belanosima-SemiBold.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.popup {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    animation: pulse 2s infinite alternate;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 40%; 
+    flex: 1;
+    border-radius: 5px;
+    
+}
+
+#confirm{
+    background: #ff3333;
+    border: none;
+    font-family: 'Belanosima';
+    color: white;
+    box-shadow: 0 0 5px #505050;
+}
+
+#cancel{
+    background: #999999;
+    font-family: 'Belanosima';
+    color: white;
+    box-shadow: 0 0 1px #000000;
+    border: none;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 30px rgba(255, 0, 0, 0.534); 
+    }
+}
+
+#title{
+    font-family: 'Belanosima1';
+    font-size: 30px;
+}
+
+#message{
+    font-family: 'Acme';
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}

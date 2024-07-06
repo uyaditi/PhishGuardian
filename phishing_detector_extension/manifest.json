@@ -1,0 +1,30 @@
+{
+    "name": "Phishing SIH",
+    "version": "1.0",
+    "description": "Notifies the user if a suspicious website is visited",
+    "manifest_version": 3,
+    "author": "Init 0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "assets/logo.png",
+            "32": "assets/logo1.png",
+            "16": "assets/logo2.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "128": "assets/logo.png",
+        "32": "assets/logo1.png",
+        "16": "assets/logo2.png"
+    },
+    "permissions": ["activeTab", "history", "scripting", "tabs", "webNavigation","storage"]
+}
