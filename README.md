@@ -11,13 +11,25 @@ PhishGuardian is a comprehensive solution designed to help users detect phishing
 
 This folder contains the code for the website built using React.js.
 
-## Installation Instructions
+### Installation Instructions
 
 Follow these steps to install and run the PhishGuardian website on your local machine:
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/uyaditi/PhishGuardian.git
+
+2. **Change the working directory to PhishGuardian-website:**
+   ```bash
+   cd PhishGuardian-website
+
+3. **Install Dependencies/Node Modules:**
+   ```bash
+   npm i
+
+4. **Start the Development Server:**
+   ```bash
+   npm run start
 
 ### Features
 
