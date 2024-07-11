@@ -47,6 +47,30 @@ Follow these steps to install and run the PhishGuardian website on your local ma
 
 This folder contains the code for the Chrome extension and the NLP model `.pkl` file.
 
+### Installation Instructions
+
+Follow these steps to install and run the PhishGuardian browser extension:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/uyaditi/PhishGuardian.git
+
+2. **Navigate to Your Browser:**
+   - Click on more options (three dots or lines in the top right corner).
+   - Select Extensions.
+   - Click on Manage Extensions.
+
+3. **Enable Developer Mode:**
+   On the top right corner, enable the Developer mode toggle.
+
+4. **Load Unpacked Extension:**
+   - On the top left corner, select the Load unpacked option.
+   - Navigate to the cloned repository and select the phishing_detector_extension folder.
+
+5. **Enable and Pin the Extension:**
+   - Enable the extension.
+   - Pin the extension for ease of use.
+
 ### Features
 
 - Detects phishing websites in real-time while browsing.
