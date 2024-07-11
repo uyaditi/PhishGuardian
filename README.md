@@ -18,10 +18,10 @@ This folder contains the code for the website built using React.js.
 - Detailed Report
 - "Have I Been Pwned" Integration
 
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/ba69b04a-3426-499c-ab77-762935237ac5" width=500 height=250 />
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/10c2c586-4be0-4329-b0b4-0e0b576e7e9d" width=500 height=250 />
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/c3ed1059-dade-462b-91d5-0676be69cddd" width=500 height=250 />
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/32c90e57-5142-4dee-bf49-83d0ace5b035" width=500 height=250 />
+![detection](https://github.com/uyaditi/PhishGuardian/assets/123807371/9e1bf46b-7c86-4009-9006-5ed563b7fc4c)
+![guide](https://github.com/uyaditi/PhishGuardian/assets/123807371/3cf28ffe-d1a4-4579-8d92-e5e18b1101c4)
+![review](https://github.com/uyaditi/PhishGuardian/assets/123807371/2f27b7fd-5e27-4033-b1a1-19e22c3c6708)
+![havei](https://github.com/uyaditi/PhishGuardian/assets/123807371/03b0d3f7-5c90-4173-a1e3-577a96bb261c)
 
 ## PhishGuardian Extension
 
@@ -34,8 +34,8 @@ This folder contains the code for the Chrome extension and the NLP model `.pkl` 
 - Provides instant alerts and warnings to users.
 - Easy to install and use within the Chrome browser.
 
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/edc9cc94-0b96-472e-8101-20dc42de72ce" width=500 height=250 />
-<image src="https://github.com/uyaditi/PhishGuardian/assets/126171723/8532b18c-5caa-4dff-97a4-b5d3620aacb5" width=500 height=250 />
+![detect](https://github.com/uyaditi/PhishGuardian/assets/123807371/c6b3ea42-bfa4-428a-be2a-b60ce4fa04f9)
+![popup](https://github.com/uyaditi/PhishGuardian/assets/123807371/d6b5d836-4cee-4076-99b3-5ac49f122594)
 
 ## Contributing
 
