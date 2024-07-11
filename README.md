@@ -61,7 +61,7 @@ Follow these steps to install and run the PhishGuardian browser extension:
    - Click on Manage Extensions.
 
 3. **Enable Developer Mode:**
-   On the top right corner, enable the Developer mode toggle.
+   - On the top right corner, enable the Developer mode toggle.
 
 4. **Load Unpacked Extension:**
    - On the top left corner, select the Load unpacked option.
